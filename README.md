@@ -175,14 +175,7 @@
 ### wp-config.php.tmpl
 
 ```
-<virtualhost *:{{ httpd_port }}>
-    
-    servername  {{ domain }}
-    documentroot /var/www/html/{{ domain }}
-    directoryindex index.php index.html
-    
-</virtualhost>
-[root@ip-172-31-7-94 lampstack]# cat wp-config.php.tmpl 
+
 <?php
 
 /** The name of the database for WordPress */
